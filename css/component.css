@@ -1,5 +1,10 @@
 /*****************HEADER*******************/
 
+
+body{
+    background-color: cadetblue;
+}
+
 .header{
     height: 60vh;
     width: auto;
@@ -13,12 +18,8 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 .header__navbar{
-    height: 4rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    height: 5rem;   
     background-color: aqua;
 }
 
@@ -31,6 +32,37 @@
 }
 
 .header__list__item{
-    background-color: bisque;
-    
+    background-color: bisque;  
 }
+
+.main{
+    height: 200vh;
+    width: auto;
+
+}
+
+.ICACIE_Section{
+    margin: 4rem 4rem 4rem 4rem;
+    height: 40rem;
+    width: auto;
+    background-color: aliceblue;
+    padding: 4rem 4rem 4rem 4rem;
+    display: flex;
+}
+
+.ICACIE_Welcome{
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    height: 30rem;
+    width: 80rem;
+    background-color: burlywood;
+}
+
+.ICACIE_Info{
+    margin: 2rem 2rem 2rem 2rem;
+    height: 30rem;
+    width: 50rem;
+    background-color: burlywood;
+}
+
+
