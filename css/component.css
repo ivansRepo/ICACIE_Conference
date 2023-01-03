@@ -3,12 +3,20 @@
 
 body{
     background-color: cadetblue;
+    background-image: url('../images/header_background1.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .header{
     height: 60vh;
     width: auto;
-    background-color: aquamarine;
+    background-image: url('../images/header_background2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
 }
 
 .navbar__content{
@@ -28,11 +36,21 @@ body{
     width: 60vw;
     display: flex;   
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: flex-end;
 }
 
 .header__list__item{
     background-color: bisque;  
+}
+.header__item{
+    list-style-type: none;
+}
+
+.header__item > a{
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .main{
@@ -65,4 +83,19 @@ body{
     background-color: burlywood;
 }
 
+.section__schedule{
+    margin: 4rem 4rem 4rem 4rem;
+    height: 50rem;
+    width: auto;
+    padding: 4rem 4rem 4rem 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.schedule{
+    height: 40rem;
+    width: 80rem;
+    background-color: aliceblue;
+    padding: 4rem 4rem 4rem 4rem;
+}
