@@ -1,0 +1,108 @@
+@import url(base.css);
+
+
+
+.event-schedule-area .tab-content .table {
+    -webkit-box-shadow: 0 0.1rem 3rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+.event-schedule-area .tab-content .table thead {
+    background-color: var(--C2);
+    color: #fff;
+    font-size: 2rem;
+}
+.event-schedule-area .tab-content .table thead tr th {
+    padding: 2rem;
+    border: 0;
+}
+.event-schedule-area .tab-content .table tbody {
+    background: #fff;
+}
+.event-schedule-area .tab-content .table tbody tr.inner-box {
+    border-bottom: 0.1rem solid #dee2e6;
+}
+.event-schedule-area .tab-content .table tbody tr th {
+    border: 0;
+    padding: 3rem 2rem;
+    vertical-align: middle;
+}
+.event-schedule-area .tab-content .table tbody tr th .event-date {
+    color: #252525;
+    text-align: center;
+}
+.event-schedule-area .tab-content .table tbody tr th .event-date span {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: normal;
+}
+.event-schedule-area .tab-content .table tbody tr td {
+    padding: 3rem 2rem;
+    vertical-align: middle;
+}
+.event-schedule-area .tab-content .table tbody tr td .r-no span {
+    color: #252525;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap h3 a {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--C2);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap h3 a:hover {
+    color: #4125dd;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .categories {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem 0;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .categories a {
+    color: #252525;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .categories a:before {
+    content: "\f07b";
+    font-family: fontawesome;
+    padding-right: 0.5rem;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .time span {
+    color: #252525;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 10px 0;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers a {
+    color: var(--C5);
+    font-size: 1.6rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers a:hover {
+    color: #4125dd;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers a:before {
+    content: "\f007";
+    font-family: fontawesome;
+    padding-right: 5px;
+}
+.event-schedule-area .tab-content .table tbody tr td .primary-btn {
+    margin-top: 0;
+    text-align: center;
+}
+.event-schedule-area .tab-content .table tbody tr td .event-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}

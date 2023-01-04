@@ -3,7 +3,9 @@
 
 body{
     background-color: cadetblue;
-    background-image: url('../images/header_background1.jpeg');
+    background-image: url('../images/header_background6.jpg');
+    background-image: linear-gradient();
+    /*background: linear-gradient(rgba (0,0,0,0.2),rgba(0,0,0,0.2),url('../images/header_background1.jpeg'))*/;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -12,11 +14,17 @@ body{
 .header{
     height: 60vh;
     width: auto;
-    background-image: url('../images/header_background2.jpeg');
+    background-image: url('../images/header_background4.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     
+}
+
+.navbar__content > span{
+    font-size: 6rem;
+    color: aquamarine;
+    margin: 0 0 15rem 10.5rem;
 }
 
 .navbar__content{
@@ -27,43 +35,45 @@ body{
     align-items: flex-end;
 }
 .header__navbar{
-    height: 5rem;   
-    background-color: aqua;
+    padding: 2rem 2rem 2rem 2rem;   
+    font-weight: 600;
 }
 
 .header__list{
-    background-color: beige;
     width: 60vw;
     display: flex;   
     justify-content: space-evenly;
     align-items: flex-end;
 }
 
-.header__list__item{
-    background-color: bisque;  
-}
 .header__item{
     list-style-type: none;
 }
 
 .header__item > a{
-    color: black;
+    font-size: 1.8rem ;
+    color: aqua;
     padding: 1em 1.5em;
     text-decoration: none;
-    text-transform: uppercase;
+    font-style: italic;
+    /*text-transform: uppercase;*/
+}
+
+.header__item > a:hover{
+    filter: drop-shadow(0 0 1.75rem aqua);
+    color: aliceblue;
 }
 
 .main{
-    height: 200vh;
+    padding-bottom: 8rem;
     width: auto;
 
 }
 
 .ICACIE_Section{
     margin: 4rem 4rem 4rem 4rem;
-    height: 40rem;
     width: auto;
-    background-color: aliceblue;
+   
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
 }
@@ -71,21 +81,30 @@ body{
 .ICACIE_Welcome{
     margin: 2rem 2rem 2rem 2rem;
     padding: 2rem 2rem 2rem 2rem;
-    height: 30rem;
     width: 80rem;
-    background-color: burlywood;
+    background-color: var(--C0);
+    filter: drop-shadow( 0 0 1.75rem rgb(58, 58, 58));
+}
+
+.ICACIE_Welcome:hover{
+    filter: drop-shadow(0 0 1.75rem aqua);
 }
 
 .ICACIE_Info{
     margin: 2rem 2rem 2rem 2rem;
-    height: 30rem;
+    padding: 2rem 2rem 2rem 2rem;
     width: 50rem;
-    background-color: burlywood;
+    background-color:  var(--C7);
+    filter: drop-shadow( 0 0 1.75rem rgb(58, 58, 58));
+}
+
+.ICACIE_Info:hover{
+    filter: drop-shadow(0 0 1.75rem aqua);
 }
 
 .section__schedule{
     margin: 4rem 4rem 4rem 4rem;
-    height: 50rem;
+    
     width: auto;
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
@@ -94,8 +113,21 @@ body{
 }
 
 .schedule{
-    height: 40rem;
     width: 80rem;
     background-color: aliceblue;
     padding: 4rem 4rem 4rem 4rem;
+}
+.schedule > h2{
+    text-align: center;
+}
+
+.footer{
+    height: 10rem;
+    background-color: var(--C2);
+    text-align: center;
+}
+
+.footer > span{
+    color: aliceblue;
+    margin: 5rem;
 }
