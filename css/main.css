@@ -92,17 +92,54 @@
 .event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers a:hover {
     color: #4125dd;
 }
-.event-schedule-area .tab-content .table tbody tr td .event-wrap .organizers a:before {
-    content: "\f007";
-    font-family: fontawesome;
-    padding-right: 5px;
-}
+
 .event-schedule-area .tab-content .table tbody tr td .primary-btn {
     margin-top: 0;
     text-align: center;
 }
 .event-schedule-area .tab-content .table tbody tr td .event-img img {
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+}
+
+.box{
+    position: relative;
+}
+
+.input {
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background: none;
+    border: 0.3rem solid aqua;
+    border-radius: 4rem;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 2.6rem;
+    color: aqua;
+    outline: none;
+    transition: .5s;
+    margin-top: 1.5rem;
+    margin-right: 0.38rem;
+}
+.box:hover input{
+    width: 35rem;
+    background: #3b3640;
+    border-radius: 1rem;
+}
+.box i{
+
+    margin: 0.6rem 0 0 1rem ;
+    position: absolute;
+    top: 50%;
+    right: 0rem;
+    transform: translate(-50%,-50%);
+    font-size: 2.4rem;
+    color: #ffffff;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
 }
