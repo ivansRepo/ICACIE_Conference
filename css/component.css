@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 0 5rem 0;
+    margin: 0 10rem 5rem 0;
 }
 
 .img_logo{
@@ -35,10 +35,17 @@ body{
     
 }
 
+.img_logo_icacie{
+    height: 10rem;
+    width: auto;
+    margin: 0 0rem 0rem 10rem;
+}
+
+
 .navbar__content > .header_logo_title > span{
-    font-size: 6rem;
+    font-size: 4.5rem;
     color: aquamarine;
-    margin: 0 0 0 10.5rem;
+    margin: 0rem 0 0 10.5rem;
     
 }
 
@@ -96,13 +103,11 @@ body{
 .main{
     padding-bottom: 8rem;
     width: auto;
-
 }
 
 .ICACIE_Section{
     margin: 4rem 4rem 4rem 4rem;
     width: auto;
-   
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
 }
@@ -110,7 +115,7 @@ body{
 .ICACIE_Welcome{
     margin: 2rem 2rem 2rem 2rem;
     padding: 2rem 2rem 2rem 2rem;
-    width: 80rem;
+    width: 60rem;
     text-align: justify;
     background-color: var(--C0);
     filter: drop-shadow( 0 0 1.75rem rgb(58, 58, 58));
@@ -135,12 +140,10 @@ body{
 
 .section__schedule{
     margin: 4rem 4rem 4rem 4rem;
-    
     width: auto;
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .schedule{
@@ -150,6 +153,26 @@ body{
 }
 .schedule > h2{
     text-align: center;
+}
+
+.sponsor{
+    background-color: var(--C2);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor .sponsor_box{
+    height: 28rem;
+    width: 38rem;
+    margin: 5rem;
+    padding: 2rem;
+    background-color: #FFFFFF;
+}
+
+.sponsor .sponsor_box > img{
+    width: 32rem;
+    height: auto;
 }
 
 .footer{
@@ -252,17 +275,18 @@ body{
 .section_hotel{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section_hotel .card{
-    height: 70rem;
-    width: 40rem;
+    width: 25%;
     background-color: #FFFFFF;
     margin: 4rem;
     padding: 4rem;
     display: flex;
     flex-direction: column;
     justify-items: center;
+    min-width: 20rem;
 }
 
 .section_hotel .card .hotel-img{
@@ -270,9 +294,15 @@ body{
     justify-content: center;
 }
 
+.section_hotel .card .hotel-img{
+    width: 100%;
+    height:30rem;
+}
+
 .section_hotel .card .hotel-img img{
-    height: 30rem;
-    width: auto;
+    height: 100%;
+    width: 100%;
+
 }
 
 .card .card_button button{
@@ -291,3 +321,10 @@ body{
     text-decoration: none;
     transition: color 100ms;
 }
+
+.card .visit-img >img{
+    width: 32rem;
+    height : auto;
+}
+
+
