@@ -322,9 +322,87 @@ body{
     transition: color 100ms;
 }
 
-.card .visit-img >img{
-    width: 32rem;
-    height : auto;
+.card .visit-img{
+    width: 100%;
 }
 
+.card .visit-img >img{
+    width: 100%;
+    height : 100%;
+}
 
+/*******************************Travel************************/
+
+.section_travel .section_top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 4rem 4rem 4rem;
+    color: var(--C0);
+}
+
+.section_travel .section_top h2{
+    text-align: center;
+    color: black;
+}
+
+.section_travel .section_restriction{
+    width: 100%;
+    background-color: var(--C1);
+    text-align: justify;
+    padding: 8rem;
+}
+
+.section_travel .section_restriction h3{
+    text-align: center;
+    color: black;
+}
+
+.section_travel .section_restriction p{
+    text-align: center;
+    color: var(--C0);
+}
+
+.section_travel .section_restriction ul li{
+    font-size: 1.6rem;
+    margin: 1.4rem;
+    color: var(--C6);
+    font-weight: 500;
+}
+
+.section_travel .section_transit{
+    width: 100%;
+    background-color: var(--C2);
+    text-align: justify;
+    padding: 2rem 4rem 4rem 4rem;
+}
+
+.section_travel .section_transit h3{
+    text-align: center;
+    color: black;
+}
+
+.section_travel .section_transit p{
+    text-align: center;
+    color: var(--C0);
+}
+
+.section_travel .section_departure{
+    width: 100%;
+    background-color: var(--C3);
+    text-align: justify;
+    padding: 2rem 4rem 4rem 4rem;
+}
+
+.section_travel .section_departure h3{
+    text-align: center;
+}
+
+.section_travel .section_departure ul{
+    margin: 4rem;
+    color: var(--C6);
+}
+
+.section_travel .section_departure ul li{
+    font-size: 1.6rem;
+    margin: 1.4rem;
+}
