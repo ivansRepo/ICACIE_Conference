@@ -14,7 +14,7 @@ body{
 
 .header{
     height: 60vh;
-    width: auto;
+    width: 100%;
     background-image: url('../images/header_background4.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -106,19 +106,28 @@ body{
 }
 
 .ICACIE_Section{
-    margin: 4rem 4rem 4rem 4rem;
+    margin: 4rem 4rem 2rem 4rem;
     width: auto;
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ICACIE_Welcome{
     margin: 2rem 2rem 2rem 2rem;
-    padding: 2rem 2rem 2rem 2rem;
-    width: 60rem;
+    padding: 4rem 4rem 4rem 4rem;
+    width: 50%;
     text-align: justify;
-    background-color: var(--C0);
-    filter: drop-shadow( 0 0 1.75rem rgb(58, 58, 58));
+    /* filter: drop-shadow( 0 0 1.75rem rgb(0, 0, 0)); */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
+    
+    min-width: 30rem;
 }
 
 .ICACIE_Welcome:hover{
@@ -127,11 +136,17 @@ body{
 
 .ICACIE_Info{
     margin: 2rem 2rem 2rem 2rem;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 4rem 4rem 4rem 4rem;
     width: 50rem;
     text-align: justify;
     background-color:  var(--C7);
-    filter: drop-shadow( 0 0 1.75rem rgb(58, 58, 58));
+    /* filter: drop-shadow( 0 0 1.75rem rgb(0, 0, 0)); */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
 }
 
 .ICACIE_Info:hover{
@@ -139,24 +154,38 @@ body{
 }
 
 .section__schedule{
-    margin: 4rem 4rem 4rem 4rem;
-    width: auto;
+    margin: 0rem 4rem 2rem 4rem;
+    width: 100%;
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
     justify-content: center; 
 }
 
 .schedule{
-    width: 80rem;
-    background-color: aliceblue;
+    width: 60%;
     padding: 4rem 4rem 4rem 4rem;
+    /* From https://css.glass */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
 }
+
+
 .schedule > h2{
     text-align: center;
 }
 
 .sponsor{
-    background-color: var(--C2);
+    /* From https://css.glass */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -164,14 +193,15 @@ body{
 
 .sponsor .sponsor_box{
     height: 28rem;
-    width: 38rem;
+    width: 25%;
+    min-width: 20rem;
     margin: 5rem;
     padding: 2rem;
     background-color: #FFFFFF;
 }
 
 .sponsor .sponsor_box > img{
-    width: 32rem;
+    width: 90%;
     height: auto;
 }
 
@@ -193,7 +223,6 @@ body{
 .main_keynote{
     width: 60vw;
     height: auto;
-    background-color: aliceblue;
     margin: 0 auto;
 }
 
@@ -218,8 +247,15 @@ body{
     margin: 0 auto;
     padding: 6rem;
     width: 55rem;
-    height: 70rem;
+    height: auto;
     background-color: var(--C4);
+    /* From https://css.glass */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
     text-align: justify;
     border-radius: 4rem;
 }
@@ -227,6 +263,12 @@ body{
 .card .card_button{
     display: flex;
     justify-content: center;
+}
+
+.card .card_button-keynote{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .keynote_section .card button{
@@ -254,6 +296,19 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+}
+
+.keynote_section .card .card_socialmedia{
+    padding: 4rem;
+    height: 5rem;
+    background-color: white;
+}
+
+
+.card_socialmedia i{
+    width: auto;
+    height: 5rem;
+    
 }
 
 /*******************************Accomodation & Travel************************/
@@ -286,7 +341,24 @@ body{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    min-width: 20rem;
+    min-width: 30rem;
+    text-align: justify;
+
+    /* From https://css.glass */
+    background: rgba(108, 247, 230, 0.14);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(108, 247, 230, 0.3);
+}
+
+.section_hotel .card h2{
+    text-align: center;
+}
+
+.section_hotel .card p{
+    padding-bottom: 2rem;
 }
 
 .section_hotel .card .hotel-img{
@@ -307,19 +379,22 @@ body{
 
 .card .card_button button{
     background-color: var(--C5);
-    border-radius: 0.8rem;
     border-style: none;
     color: #FFFFFF;
     cursor: pointer;
     font-size: 1.4rem;
     font-weight: 500;
-    height: 4rem;
+    height: 5rem;
     list-style: none;
     margin: 0;
     padding: 1rem 1.6rem;
     text-align: center;
     text-decoration: none;
     transition: color 100ms;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0rem 1rem 1rem ;
 }
 
 .card .visit-img{
