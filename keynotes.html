@@ -20,7 +20,6 @@
                 <li class="navbar__item header__item-top"><a href="#">Register</a></li>
                 <li class="navbar__item header__item-top"><a href="#">Contact</a></li>
                 <li class="navbar__item header__item-top"><a href="#">Galerie</a></li>
-                <li class="navbar__item header__item-top">
                     <div class="box">
                     <form name="search">
                         <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
@@ -38,7 +37,6 @@
                 <span>Conference 2023</span>
                 <img class="img_logo" src="images/udm.png" alt="">
             </div>
-            
             <nav class="navbar header__navbar">   
                 <ul class="header__list">
                     <li class="navbar__item header__item"><a href="index.html">Home</a></li>
@@ -49,12 +47,33 @@
                 </ul>
             </nav>
         </div>
+        <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Contact</a>
+                <a href="#">Gallerie</a>
+                <a href="index.html">Home</a>
+                <a href="sightseeing.html">Sightseeing</a>
+                <a href="accomodation.html">Accomodation</a>
+                <a href="keynotes.html">Keynotes</a>
+                <a href="travel.html">Travel</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        </div>
     </header>
     <main class="main_keynote">
         <section class="keynote_section">
-            <div class="card">   
+            <div class="card">  
+                <div class="card_content">
                 <div class="event-img">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                    <img src="images/profile.png" alt="" />
                 </div>
                 <h2>Keynote Speaker</h2>
                 <p>Principal Scientist & Distinguished Engineer,
@@ -64,12 +83,21 @@
                     <div class="card_button-keynote">
                         <button>Speaker Bio</button>
                     </div>
+                </div> 
+                <div class="card_socialmedia">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div> 
             </div>
         </section>
         <section class="keynote_section">
             <div class="card">   
+                <div class="card_content">
                 <div class="event-img">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
+                    <img src="images/profile.png" alt="" />
                 </div>
                 <h2>Keynote Speaker</h2>
                 <p>Principal Scientist & Distinguished Engineer,
@@ -78,31 +106,18 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam, fugit eligendi aperiam earum inventore mollitia velit doloremque facere praesentium vel maxime neque magni, unde repellat eius nam quas! Sit.</p>
                     <div class="card_button-keynote">
                         <button>Speaker Bio</button>
+                    </div>
                     </div>
                     <div class="card_socialmedia">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa fa-bars"></i>
-                        <a href="#" class="fa fa-facebook" ></a>
-                    </div>
-
-            </div>
-        </section>
-        <section class="keynote_section">
-            <div class="card">   
-                <div class="event-img">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" />
-                </div>
-                <h2>Keynote Speaker</h2>
-                <p>Principal Scientist & Distinguished Engineer,
-                    TCS Research and Innovation, India</p>
-                    <h3>Abstract</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam, fugit eligendi aperiam earum inventore mollitia velit doloremque facere praesentium vel maxime neque magni, unde repellat eius nam quas! Sit.</p>
-                    <div class="card_button-keynote">
-                        <button>Speaker Bio</button>
-                    </div>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> 
             </div>
         </section>
     </main>
-
+    <footer class="footer"><span>All Rights Reserved © </span></footer>
 </body>
 </html>
