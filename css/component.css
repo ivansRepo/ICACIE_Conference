@@ -343,6 +343,7 @@ body{
     transform: scale(1.2);
 }
 
+
 .main_keynote .card{
     margin: 0 auto;
     width: 70%;
@@ -416,8 +417,8 @@ body{
 
 .keynote_section .card .card_content{
     padding: 6rem 6rem 2rem 6rem;
-}
 
+}
 
 .social-icons {
     width: 100%;
@@ -525,7 +526,7 @@ body{
 }
 
 .section_hotel .card .hotel-img img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     border-radius: 1rem;
 }
 
