@@ -528,6 +528,7 @@ body{
 .section_hotel .card .hotel-img img:hover{
     transform: scale(1.1);
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card .card_button button{
