@@ -526,7 +526,7 @@ body{
 }
 
 .section_hotel .card .hotel-img img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-radius: 1rem;
 }
 
